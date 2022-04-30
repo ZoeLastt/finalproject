@@ -1,5 +1,5 @@
 --global variables--
-base_morph = $mat.Morpher 
+base_morph = $.Morpher 
 channel_num = #{}
 for i=1 to 100 do channel_num[i] = WM3_MC_HasData base_morph i  
 channel_num = channel_num as array
